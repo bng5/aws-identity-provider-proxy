@@ -1,7 +1,9 @@
 *.js
 !jest.config.js
-*.d.ts
+aws-identity-provider-proxy/**/*.d.ts
 node_modules
+amplify
+.vscode
 
 # CDK asset staging directory
 .cdk.staging
